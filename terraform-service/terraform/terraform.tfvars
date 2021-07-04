@@ -1,0 +1,11 @@
+k8s_metadata_name = "flask-api-dev"
+k8s_namespace = "dev"
+k8s_label_app_name = "flask-api-dev"
+k8s_label_release_name = "fask-api-dev-release"
+k8s_replica_set = 1
+k8s_image_name = "dhawan10/flask-restful-apis:v1.0.0"
+k8s_port_name = "http"
+k8s_container_port = 5000
+k8s_host_port = 5000
+k8s_service_port = 5000
+k8s_service_type = "NodePort"
